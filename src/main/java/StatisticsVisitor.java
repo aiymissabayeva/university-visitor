@@ -7,7 +7,7 @@ public class StatisticsVisitor implements Visitor {
 
     public StatisticsVisitor(AbstractNode root) {
         if (root == null) {
-            throw new IllegalArgumentException("Root cannot be null");
+            throw new IllegalArgumentException("Root can't be null");
         }
         this.root = root;
     }
