@@ -29,7 +29,6 @@ public class SearchVisitor implements Visitor {
 
     @Override
     public void visit(DirectoryNode directory) {
-        // Directories are not search results
     }
 
     private String getPath(AbstractNode file) {
